@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const result = React.createElement("h1", { id: "result" }, [
   React.createElement("h1", {}, "I am an h1 tag"),
   React.createElement("h1", {}, "I am an h2 tag"),
